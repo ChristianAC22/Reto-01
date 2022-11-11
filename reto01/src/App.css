@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+}
+.container-grafico{
+    width: 40%;
+}
+.container-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+html, body {
+    background-color: #21232A;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+    padding: 10px;
+    
+}
+
+
+button {
+    padding: 5px;
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+
